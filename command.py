@@ -5,7 +5,7 @@ class HelloWorld(cmd.Cmd):
     intro = "Welcome to chembeu shell"
     def do_greet(self, line):
         print ("hello")
-    def do_exit(self,arg):
+    def do_funga(self,arg):
         """Exiting the terminal"""
         print("Goodbye")
         return True
